@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+<<<<<<< HEAD
 // import './App.css';
 import Columns from 'react-bulma-components/lib/components/columns';
 import {
@@ -14,6 +15,10 @@ import {
   Help,
 } from 'react-bulma-components/lib/components/form';
 import Button from 'react-bulma-components/lib/components/button';
+=======
+import Searc from './components/Search';
+import './App.css';
+>>>>>>> e038add6b60a7aa7e79e813b7af5ca1cdc1bc4b7
 
 function App() {
   return (
