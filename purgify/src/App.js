@@ -6,19 +6,27 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h2>Purgify Spotify</h2> 
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        It's time to purge your Spotify of the music you don't listen to.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+
+      <div className="search">
+
+        <p> Pick a Playlist </p>
+        <input type="text" placeholder="Search Playlist" />
+
+        <p> Pick an artist </p>
+        <input type="text" placeholder="Search Artist" />
+
+        <p> Pick a song </p>
+        <input type="text" placeholder="Search Songs" />
+
+        
+      </div>
+     
+      <button className="purgeButton" type="submit"> Purge </button>
     </div>
   );
 }
